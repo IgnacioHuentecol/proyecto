@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Proyectoandroid</string>
+    <string name="tvd_patente">Patente</string>
+    <string name="tvd_marca">Marca</string>
+    <string name="tvd_modelo">Modelo</string>
+    <string name="tvd_anio">Año</string>
+    <string name="tvd_uf">UF</string>
+    <string name="recibe_Patente">Patente</string>
+    <string name="recibe_Marca">Marca</string>
+    <string name="recibe_Modelo">Modelo</string>
+    <string name="recibe_Anio">Año</string>
+    <string name="recibe_Uf">UF</string>
+    <string name="antiguedad">Antigüedad</string>
+    <string name="asegurado">Asegurado</string>
+    <string name="valor_pagar">Valor uf</string>
+    <string name="btn_registro">Registro</string>
+    
+    <string-array name="marca">
+        <item>Nissan</item>
+        <item>Toyota</item>
+        <item>Mitsubishi</item>
+        <item>Mazda</item>
+        <item>Peugeot</item>
+        <item>Kia</item>
+        <item>Hyundai</item>
+        <item>Suzuki</item>
+        <item>Chevrolet</item>
+        <item>Ford</item>
+
+    </string-array>
+
+
+
+
+</resources>

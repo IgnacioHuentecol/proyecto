@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="50dp"
+    android:paddingLeft="100dp"
+    android:paddingRight="50dp"
+    android:paddingTop="50dp"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context="com.example.ignacio.proyectoandroid.MainActivity"
+    android:weightSum="1">
+
+
+
+
+    <TextView
+        android:id="@+id/txv_titulo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASEGURADORA EXPRESS"
+        android:textSize="15sp"
+        android:layout_weight="0.58" />
+
+
+    <TextView
+        android:id="@+id/txv_patente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:id="@+id/edt_patente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Patente"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txv_marca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:id="@+id/spnmarca"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/txv_modelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edt_modelo"
+        android:textSize="20sp"
+        android:hint="Modelo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <TextView
+        android:id="@+id/txv_anio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edt_año"
+        android:inputType="number"
+        android:hint="Año"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/txv_uf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edt_uf"
+        android:inputType="number"
+        android:hint="Valor UF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:text="Consultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        />
+
+</LinearLayout>
+
